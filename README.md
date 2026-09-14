@@ -7,7 +7,7 @@ A from-scratch implementation of **Linear Regression** using Python and NumPy, b
 ## What I Implemented
 
 * Linear regression model
-* Mean Squared Error (MSE) cost function
+* Mean Squared Error (MSE) loss function
 * Partial derivatives
 * Gradient descent
 * Vectorized gradient calculations
@@ -20,25 +20,25 @@ The model is based on:
 
 **Prediction:**
 
-$$
+```math
 \hat{y} = wx + b
-$$
+```
 
-**Cost function:**
+**Loss function:**
 
-$$
-J(w,b) = \frac{1}{m}\sum_{i=1}^{m}(\hat{y}^{(i)}-y^{(i)})^2
-$$
+```math
+L(w,b) = \frac{1}{m}\sum_{i=1}^{m}(\hat{y}^{(i)}-y^{(i)})^2
+```
 
 The parameters are updated using gradient descent:
 
-$$
-w := w - \alpha \frac{\partial J}{\partial w}
-$$
+```math
+w := w - \alpha \frac{\partial L}{\partial w}
+```
 
-$$
-b := b - \alpha \frac{\partial J}{\partial b}
-$$
+```math
+b := b - \alpha \frac{\partial L}{\partial b}
+```
 
 The implementation also uses vectorized operations with NumPy to perform the calculations efficiently.
 
