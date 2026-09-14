@@ -1,8 +1,5 @@
 # Linear-Regression-Implimentation-from-scratch
 Linear Regression implemented from scratch using Python and NumPy to understand the mathematics and optimization behind the model.
-# Linear Regression From Scratch
-
-A from-scratch implementation of **Linear Regression** using Python and NumPy, built to understand the mathematics and optimization behind the model.
 
 ## What I Implemented
 
